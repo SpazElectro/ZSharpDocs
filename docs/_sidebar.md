@@ -2,4 +2,4 @@
 - Getting started
   - [Installation](installation.md)
   - [Hello World](hello-world.md)
-
+  - [Graphics](graphics.md)

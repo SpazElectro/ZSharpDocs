@@ -89,3 +89,8 @@ You probably don't have "MS Visual Runtime and MSVC C++ Redistribute" installed.
     5. Type "export PATH=$PATH:~/Z-Sharp"
     6. Type "echo $PATH"
     7. Copy the output to the clipboard.
+
+
+# Contributing
+
+You could also contribute to Z# by making a pull request on [GitHub](https://github.com/sam-astro/Z-Sharp/).

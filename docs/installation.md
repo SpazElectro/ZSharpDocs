@@ -16,39 +16,39 @@ To download the installer, pick the "ZSharp-Win-Installer.zip" file. Unzip the f
 You need the package libsdl2-dev.
 For Debian based operating systems you can install it with
 
-```
+```ruby
 $ sudo apt install libsdl2-dev
 ```
 
 For Arch based operating systems you can install it with
 
-```
+```ruby
 $ sudo pacman -S sdl2
 ```
 
 You also need the package libsdl2-image-dev.
 For Debian based operating systems you can install it with
 
-```
+```ruby
 $ sudo apt install libsdl2-image-dev
 ```
 
 For Arch based operating systems you can install it with
 
-```
+```ruby
 $ sudo pacman -S sdl2_image
 ```
 
 You also need the package libsdl2-ttf-dev.
 For Debian based operating systems you can install it with
 
-```
+```ruby
 $ sudo apt install libsdl2-ttf-dev
 ```
 
 For Arch based operating systems you can install it with
 
-```
+```ruby
 $ sudo pacman -S sdl2_ttf
 ```
 

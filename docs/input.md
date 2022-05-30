@@ -2,8 +2,8 @@
 To check input, we'll use the `GetKey` function, it's a simple function that returns a boolean value, if the key is pressed or not, here's an example of how to use it:
 
 ```c++
-func Main() {
-    if GetKey("A") {
+func Start() {
+    if GetKey("A") == true {
         Printl("A is pressed")
     }
 }
@@ -21,8 +21,6 @@ func Start() {
 }
 
 func Update() {
-    Printl("Update")
-
     if GetKey("A") == true {
         Printl("A is pressed")
     }
@@ -35,9 +33,5 @@ Lets run our final code, the console should show the following:
 ```log
 ZSharp v2.1.2-alpha
 
-Start
-Update
-Update
-Update... (and so on...)
 A is pressed (user is holding down the A key)
 ```

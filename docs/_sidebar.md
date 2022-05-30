@@ -2,4 +2,8 @@
 - Getting started
   - [Installation](installation.md)
   - [Hello World](hello-world.md)
-  - [Graphics](graphics.md)
+- Graphics
+  - [Making a window](graphics.md)
+  - [Sprites](graphics-sprites.md)
+  - [Text](graphics-text.md)
+  - [Input](input.md)

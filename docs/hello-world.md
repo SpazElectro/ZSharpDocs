@@ -18,7 +18,7 @@ Now our app can run, but we still haven't added any actual code, So let's make o
 
 ```c++
 func Main() {
-    Printf("Hello World")
+    Printl("Hello World!")
 }
 ```
 
@@ -26,10 +26,10 @@ Alright, so now we have our app, but we still need to run it.
 To run our app, we'll open the file, or we could open a terminal and type "zsharp main.zs" to run our app.
 
 ```log
-> zsharp main.zs
-<< ZSharp v2.1.2-alpha
+> ZSharp.exe main.zs
+    ZSharp v2.1.2-alpha
 
-<< Hello World
+    Hello World!
 ```
 
 Excellent! our application is now running, and we can see the output in the console.

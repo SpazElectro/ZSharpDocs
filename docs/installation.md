@@ -1,68 +1,41 @@
-# Installation
+# Downloading and using the Interpreter:
+Downloading or installing is very simple, here is how depending on your version and operating system:
 
-## Ways to install Z#
+### Windows
+1. Navigate to [the most recent release](https://github.com/sam-astro/Z-Sharp/releases) and download `ZSharp-Win-Installer.zip`.
+2. Unzip `ZSharp-Win-Installer.zip` and open the unzipped folder.
+3. Inside is a single file titled `ZSharp-Setup.exe`. Run it, and follow the setup instructions.
+4. Now that it is installed, learn how to use it by following [the tutorial](https://stevenrafft.github.io/ZSharpDocs/#/hello-world)
 
-The page to install Z# is at [here](https://github.com/sam-astro/Z-Sharp/releases).
-There are 2 ways to install Z#:
+### Linux
+1. #### Requirements
+    You need the packages `libsdl2-dev`, `libsdl2-image-dev` and `libsdl2-ttf-dev`.
+    
+    For Debian based operating systems you can install them with:
+    ```ruby
+    $ sudo apt install libsdl2-dev
+    $ sudo apt install libsdl2-image-dev
+    $ sudo apt install libsdl2-ttf-dev
+    ```
+    
+    For Arch based operating systems you can install them with:
+    
+    ```ruby
+    $ sudo pacman -S sdl2
+    $ sudo pacman -S sdl2_image
+    $ sudo pacman -S sdl2_ttf
+    ```
 
-### Installer (recommended)
+2. Navigate to [the most recent release](https://github.com/sam-astro/Z-Sharp/releases) and download `ZSharp-Linux.zip`.
+3. Unzip `ZSharp-Linux.zip` and open the unzipped folder.
+4. You will see some files. The Z# interpreter is `ZSharp`. Any time you want to execute a script, this is the program that will be used. You can use it like so:
+    * Use terminal, providing path to executable and then to script like so:
+    `$ ./ZSharp ./Pong-Example-Project/script.zs`
 
-#### Windows
-
-To download the installer, pick the "ZSharp-Win-Installer.zip" file. Unzip the file and run the installer, Pick the language that you prefer, Read and agree to the license agreement, and click "Next" and then click "Install", and then click "Finish".
-
-#### Linux
-
-You need the package libsdl2-dev.
-For Debian based operating systems you can install it with
-
-```ruby
-$ sudo apt install libsdl2-dev
-```
-
-For Arch based operating systems you can install it with
-
-```ruby
-$ sudo pacman -S sdl2
-```
-
-You also need the package libsdl2-image-dev.
-For Debian based operating systems you can install it with
-
-```ruby
-$ sudo apt install libsdl2-image-dev
-```
-
-For Arch based operating systems you can install it with
-
-```ruby
-$ sudo pacman -S sdl2_image
-```
-
-You also need the package libsdl2-ttf-dev.
-For Debian based operating systems you can install it with
-
-```ruby
-$ sudo apt install libsdl2-ttf-dev
-```
-
-For Arch based operating systems you can install it with
-
-```ruby
-$ sudo pacman -S sdl2_ttf
-```
-
-Navigate to the most recent release and download ZSharp-Linux.zip.
-
-Unzip ZSharp-Linux.zip and open the unzipped folder.
-
-### Zip
-
-To download the zip file, pick the "ZS_Win_Base_Raw.zip" file. Unzip the file in the directory you want to install Z#, add the Z# folder to the PATH environment variable, and then run the Z# (zsharp) command.
 
 ## Common problems
 
-### ZSharp is not starting, what should i do?
+### ZSharp is not starting, what should I do?
 
 You probably don't have "MS Visual Runtime and MSVC C++ Redistribute" installed. download it from [here](https://docs.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170).
 
